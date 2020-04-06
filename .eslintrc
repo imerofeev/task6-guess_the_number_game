@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "amd": true,
+    "shared-node-browser": true,
+    "commonjs": true
+  },
+  "extends": ["prettier", "eslint:recommended", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "classes": true
+    }
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["warn", "windows"],
+    "quotes": ["warn", "double"],
+    "semi": ["error", "always"],
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "always"]
+  },
+  "globals": {
+    "func": "writable",
+    "arg": "writable"
+  }
+}

@@ -1,1 +1,4 @@
-# task6-guess_the_number_game
+# JavaScript Practice - Guess the number game
+
+1. Install Node.js.
+2. Run game by npm start
