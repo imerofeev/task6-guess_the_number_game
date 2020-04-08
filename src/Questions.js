@@ -1,8 +1,8 @@
 function Questions() {
   inputOutput.call(this);
-  const userNumbers = [];
 
   this.askQuestion = function(q) {
+    const userNumbers = [];
     return new Promise(res => {
       this.inputOutput.question(q, userNumber => {
         let newNumber = parseInt(userNumber, 10);
